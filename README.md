@@ -14,8 +14,8 @@ A full end-to-end data engineering and analytics project built with **PySpark**,
 
 | Environment | Link |
 |---|---|
-| Google Colab | [Open in Colab](#) |
-| Databricks (Bonus) | [Open in Databricks](#) |
+| Google Colab | [Open in Colab](https://colab.research.google.com/drive/1KT_U4WsD8umE-EWjZnU4k9hHgWoc6d0O?usp=sharing) |
+| Databricks (Bonus) | [Open in Databricks](https://dbc-901ab696-4ce5.cloud.databricks.com/editor/notebooks/2708479926592753?o=7474657593396595) |
 
 > Parquet outputs (`football_stats_partitioned` and `football_top_teams`) are stored in Google Drive / Databricks Volumes — paths are parameterized inside each notebook.
 
@@ -149,7 +149,7 @@ Total Goals  = SUM(football_stats_partitioned[GoalsScored])
 
 ## 🚀 How to Run (Google Colab)
 
-1. Open the [Colab notebook](#) linked above
+1. Open the [Colab notebook](https://colab.research.google.com/drive/1KT_U4WsD8umE-EWjZnU4k9hHgWoc6d0O?usp=sharing) linked above
 2. Mount your Google Drive when prompted
 3. Upload `ensemble-de-donnees.csv` from `data/` to `MyDrive/Colab Notebooks/data/`
 4. Run all cells — Parquet outputs will be written to your Drive automatically
